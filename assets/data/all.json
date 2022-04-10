@@ -1,0 +1,40 @@
+[
+    {
+        "name": "我是a",
+        "id": "a",
+        "hasParent": false,
+        "hasChildren": true,
+        "children": [
+            {
+                "name": "我是bb",
+                "id": "bb",
+                "hasParent": true,
+                "hasChildren": false,
+                "parentId": "a"
+            },
+            {
+                "name": "我是cc",
+                "id": "cc",
+                "hasParent": true,
+                "hasChildren": true,
+                "parentId": "a",
+                "children": [
+                    {
+                        "name": "我是ddd",
+                        "id": "ddd",
+                        "hasParent": true,
+                        "hasChildren": false,
+                        "parentId": "cc"
+                    },
+                    {
+                        "name": "我是eee",
+                        "id": "eee",
+                        "hasParent": true,
+                        "hasChildren": false,
+                        "parentId": "cc"
+                    }
+                ]
+            }
+        ]
+    }
+]

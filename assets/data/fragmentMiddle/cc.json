@@ -1,0 +1,9 @@
+[
+    {
+        "name": "我是cc",
+        "id": "cc",
+        "hasParent": true,
+        "hasChildren": true,
+        "parentId": "a"
+    }
+]

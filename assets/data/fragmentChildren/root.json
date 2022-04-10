@@ -1,0 +1,8 @@
+[
+    {
+        "name": "我是a",
+        "id": "a",
+        "hasParent": false,
+        "hasChildren": true
+    }
+]
