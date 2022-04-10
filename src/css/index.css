@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node rect {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font: 10px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.tree {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: #E0E0E0;
+}
+
+.tree svg {
+    width: 100%;
+    height: 100%;
+}
